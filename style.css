@@ -6,14 +6,12 @@ body {
 
 .signup-form-container {
     position: relative;
-    padding: 0;
-    margin: 0;
     display: flex;
     height: 100vh;
 }
 
 .signup-logo-sidebar {
-    width: 100vmax;
+    width: 50vw;
     background-image: url('./assets/photo-1544373823-c2b242bd6324.jpeg');
 }
 
@@ -57,15 +55,61 @@ img {
 }
 
 .signup-text {
-    margin-top: 100px;
-    padding: 16px;
+    padding: 32px;
 }
 
 .signup-text > p {
     font-size: 1.5rem;
-    font-weight: bold;
 }
 
 .signup-form {
+    margin: 0 auto;
+}
+
+form {
     background: white;
+    padding: 32px;
+}
+
+.form-group {
+    padding-bottom: 5px;
+}
+
+label {
+    display: flex;
+            /* width: 90px;*/
+}
+
+input {
+
+    /* Uniform text field size */
+    width: 200px;
+    height: 25px;
+    box-sizing: border-box;
+
+    /* Match form field */
+    border: 1px solid #999;
+}
+
+input:focus {
+    border: 1px solid blueviolet;
+}
+
+.form-left {
+    float: left;
+    margin-right: 100px;
+}
+
+.footer {
+    margin-top: 10px;
+    padding-left: 32px;
+}
+
+button {
+    border-radius: 5px;
+    background: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    padding: 10px;
 }

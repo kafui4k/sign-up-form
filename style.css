@@ -1,0 +1,71 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.signup-form-container {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.signup-logo-sidebar {
+    width: 100vmax;
+    background-image: url('./assets/photo-1544373823-c2b242bd6324.jpeg');
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+    background: black;
+    opacity: 0.6;
+    height: 100px;
+}
+
+@font-face {
+    font-family: Norse Bold;
+    src: url('assets/Norse-Bold.otf') format('opentype');
+}
+
+.logo-text {
+    color: white;
+    
+}
+
+img {
+    height: 100px;
+}
+
+.credit {
+    position: relative;
+    color: white;
+    text-align: center;
+    bottom: -300px;
+}
+
+.signup-form-sidebar {
+    position: relative;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background: whitesmoke;
+}
+
+.signup-text {
+    margin-top: 100px;
+    padding: 16px;
+}
+
+.signup-text > p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.signup-form {
+    background: white;
+}
